@@ -45,3 +45,7 @@ Week 6 - https://materiaalit.github.io/2013-oo-programming/part1/week-6/
 * Sorting
 
 * Searching
+
+Week 7 - https://materiaalit.github.io/2013-oo-programming/part2/week-7/
+
+* HashMap data structure
