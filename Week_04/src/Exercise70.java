@@ -1,5 +1,3 @@
-package week4;
-
 import java.util.ArrayList;
 
 public class Exercise70 {
@@ -22,7 +20,7 @@ public class Exercise70 {
     System.out.println(list2); // prints [5, 10, 7]
   }
 
-  public static void combine(ArrayList<Integer> first, ArrayList<Integer> second) {
+  private static void combine(ArrayList<Integer> first, ArrayList<Integer> second) {
     first.addAll(second);
   }
 }

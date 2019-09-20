@@ -1,5 +1,3 @@
-package week4;
-
 import java.util.ArrayList;
 
 public class Exercise71 {
@@ -23,10 +21,10 @@ public class Exercise71 {
     System.out.println(list4); // prints [9, 6, 1, 5]
   }
 
-  public static void smartCombine(ArrayList<Integer> first, ArrayList<Integer> second) {
-    for (int i = 0; i < second.size(); i++) {
-      if (!first.contains(second.get(i))) {
-        first.add(second.get(i));
+  private static void smartCombine(ArrayList<Integer> first, ArrayList<Integer> second) {
+    for (Integer integer : second) {
+      if (!first.contains(integer)) {
+        first.add(integer);
       }
     }
   }
